@@ -1,0 +1,37 @@
+[
+  {
+    "id": "singapore_green_roofs_2016",
+    "title": "Extensive Green Roof Roll-out",
+    "city": "Singapore",
+    "lat": 1.3521,
+    "lon": 103.8198,
+    "climate": "Af",
+    "year": 2016,
+    "actions": ["green_roof"],
+    "summary": "City-wide subsidy program installing 40 ha of green roofs.",
+    "effectiveness": { "ΔT_surface": -2.4 },
+    "cost": 18000000,
+    "currency": "SGD",
+    "sources": [
+      { "label": "Gov report", "url": "https://example.com/sg-gov-report" },
+      { "label": "Peer-reviewed study", "url": "https://example.com/sg-study" }
+    ]
+  },
+  {
+    "id": "nyc_cool_roofs_2019",
+    "title": "NYC CoolRoofs Program",
+    "city": "New York, USA",
+    "lat": 40.7128,
+    "lon": -74.0060,
+    "climate": "Cfa",
+    "year": 2019,
+    "actions": ["high_albedo_roof"],
+    "summary": "High-albedo coating installed on >1 M ft² of rooftops.",
+    "effectiveness": { "ΔT_surface": -1.7 },
+    "cost": 3000000,
+    "currency": "USD",
+    "sources": [
+      { "label": "Program site", "url": "https://example.com/nyc-coolroofs" }
+    ]
+  }
+]
