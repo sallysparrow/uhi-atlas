@@ -1,0 +1,12 @@
+/* Layout */
+body{margin:0;font-family:system-ui, sans-serif}
+header{background:#1e1e1e;color:#fff;padding:.75rem 1rem}
+h1{margin:0;font-size:1.35rem}
+#map{height:60vh}
+#table-section{padding:1rem}
+
+/* Table highlight */
+table.dataTable tbody tr.selected{background:#ffeaa7!important}
+
+/* Responsive */
+@media(max-width:768px){#map{height:50vh}}
